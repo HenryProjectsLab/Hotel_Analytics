@@ -82,3 +82,22 @@ Selecciona el **Reviewer**, si no lo haces, se generará un mensaje de error
 ## Paso 9: Esperar la revisión y aprobación
 
 Una vez que hayas creado el Pull Request, otros miembros del equipo revisarán tus cambios y proporcionarán comentarios. Realiza las modificaciones necesarias si se requieren ajustes y, una vez que los revisores estén satisfechos, tu Pull Request será aprobado y fusionado en la rama correspondiente.
+
+## ¿Qué pasa si se hicieron cambios en el repositorio remoto, pero tu repositorio local está desactualizado?
+Imagen previa de los pasos
+![](/Image/git3.jpg)
+## Paso 1: Asegurarse de estar en la rama main
+Antes de realizar cualquier actualización, asegúrate de estar en la rama main ejecutando el siguiente comando:
+
+git checkout main
+
+## Paso 2: Obtener los últimos cambios del repositorio remoto
+Para asegurarte de tener los últimos cambios del repositorio remoto (GitHub) en tu repositorio local, simplemente ejecuta el siguiente comando:
+
+git pull origin main
+
+Esto traerá los cambios más recientes de la rama main del repositorio remoto y los fusionará automáticamente con tu repositorio local.
+
+**¡Listo, tu repositorio local ya tendrá los cambios del repo remoto!**
+
+
