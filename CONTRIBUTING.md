@@ -26,7 +26,7 @@ En este repositorio, utilizamos una estructura de ramas específica para gestion
 - Todos los cambios relacionados con el machine learning deben realizarse en esta rama.
 - Una vez que se complete el desarrollo, crea un Pull Request hacia `main` para revisar y fusionar los cambios.
 
-### 5. `docum` (rama de documentación)
+### 5. `doc` (rama de documentación)
 
 - Esta rama se utilizará específicamente para desarrollar y mantener la documentación del proyecto, incluidos informes, manuales y guías de usuario.
 - Todos los cambios relacionados con la documentación deben realizarse en esta rama.
