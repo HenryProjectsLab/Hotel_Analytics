@@ -25,6 +25,7 @@ git clone https://github.com/HenryProjectsLab/Hotel_Analytics.git
 Una vez clonado, ingresa al directorio del repositorio y configura el repositorio remoto para mantenerlo actualizado(solo se ejecuta al inicio):
 
 cd Hotel_Analytics
+
 git remote add origin https://github.com/HenryProjectsLab/Hotel_Analytics.git
 
 ## Paso 4 : Visualiza las ramas existentes
@@ -44,7 +45,7 @@ Imagen previa de los pasos 5 y 6
 
 ## Paso 5: Hacer un commit
 
-Una vez que hayas realizado los cambios, agrega los archivos modificados al área de preparación y realiza un commit con un mensaje descriptivo:
+Una vez que hayas realizado los cambios en local, realiza un commit con un mensaje descriptivo:
 
 git add .
 
