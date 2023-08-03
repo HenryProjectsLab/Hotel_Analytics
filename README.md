@@ -39,7 +39,7 @@ El estudio del sector se hará principalmente a través de un análisis de senti
 
 El pronóstico que haremos será para la industria hotelera. Analizaremos tendencias históricas para este sector y buscaremos relacionarlo con la tasa fed y el desempleo para reforzar nuestro "forecast".
 
-Para realizar recomendaciones sobre donde emplazar los nuevos locales nos limitaremos a suponer que el flujo aereo tiene una relación con el turismo y por consiguiente con el hospedaje en hoteles. Los destinos con mayor cantindad de vuelos y con mayor tasa de ocupación en hoteles serán nuestras recomendaciones.
+Para realizar recomendaciones sobre donde emplazar los nuevos locales nos limitaremos a suponer que el flujo aéreo tiene una relación con el turismo y por consiguiente con el hospedaje en hoteles. Los destinos con mayor cantidad de vuelos y con mayor tasa de ocupación en hoteles serán nuestras recomendaciones.
 
 El sistema de recomendación se construirá con filtro colaborativo basado en los ratings de usuarios con gustos similares en restaurantes, pensándose como un "plus" o servicio extra para los huespedes de los hoteles.
 
