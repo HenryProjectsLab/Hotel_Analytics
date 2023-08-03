@@ -13,13 +13,8 @@
 </p>
 
 ***
-Como equipo, desempeñamos el papel de una empresa de Consultoría en Análisis de Datos, encargada de llevar a cabo un importante proyecto. Nuestra tarea consiste en organizar y clasificar los datos disponibles del negocio para crear un informe completo y detallado para nuestro cliente.
+Nuestra empresa de Consultoría, Data Wise Solutions, se especializa en la organización, clasificación y procesamiento de los datos proporcionados por nuestros clientes, generando informes completos y detallados. En esta ocasión, nuestro compromiso es brindar un enfoque analítico integral para extraer información valiosa de los datos, con el objetivo de ofrecer a nuestros clientes una visión clara y precisa del estado actual de su negocio.
 
-En esta ocasión, estamos comprometidos en proporcionar un enfoque analítico integral que permita extraer información valiosa de los datos, con el objetivo de ofrecer a nuestro cliente una visión clara y precisa sobre el estado actual de su negocio. 
-
-
- Nuestro informe final presentará un análisis exhaustivo y claro, respaldado por gráficos e interpretaciones, que brindarán una visión más profunda del desempeño del negocio y guiarán a nuestro cliente hacia una toma de decisiones informada y fundamentada.
-***
 ### **Objetivos**
 ***
 - Objetivo General del trabajo:
