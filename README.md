@@ -57,7 +57,7 @@ Una lista de tecnologías utilizadas en el proyecto:
 * 🐬[SQL](https://cloud.google.com/sql-server?hl=es)
 * 💻[Google Cloud Platform](https://console.cloud.google.com/welcome?hl=es)
 * 📊 [Power Bi](https://powerbi.microsoft.com/es-es/)
-* [Git](https://github.com/)
+* 🐱‍💻 [Git](https://github.com/)
 * 📜[Jira](https://id.atlassian.com/logout?continue=https%3A%2F%2Fplanealab.atlassian.net)
 
 
