@@ -1,0 +1,19 @@
+# ETL de tablas de la industria hotelera en Estados Unidos
+
+Este proyecto tiene como objetivo analizar el comportamiento de la industria hotelera en Estados Unidos usando datos de Yelp y Google Maps. Se realizó un proceso de extracción, transformación y carga (ETL) de los datos y se crearon diferentes tablas en Google Cloud Platform para facilitar su consulta y análisis.
+
+## Notebooks
+
+Los notebooks que se usaron para el proyecto son los siguientes:
+
+1. **tratamiento_datos_yelp.ipynb**: Este notebook muestra cómo se descargaron, cargaron y procesaron los datos de Yelp para el proyecto. Se creó el dataset 'yelp' y las tablas correspondientes a cada archivo de datos en BigQuery. Se dividió el archivo 'user.parquet' en tres partes y se volvió a cargar. Se analizaron las columnas de la tabla `yelp.review`, que contiene las reseñas de los usuarios. [https://drive.google.com/file/d/1ZmkAaci_Xzrc1M24v7jWwHKIoGVSM42S/view?usp=drive_link)
+
+2. **verificacion_de_codigos_postales_por_Geocodificacion.ipynb**: Este notebook muestra cómo se usó la API de Nominatim para obtener la ciudad, el estado y el código postal de una muestra de coordenadas de los negocios de Yelp. Se leyó un archivo CSV con las coordenadas, se hizo la geocodificación inversa, se combinaron los resultados con el archivo original y se guardaron en un nuevo archivo CSV. Se calculó el porcentaje de coincidencia entre las columnas de ubicación. [Link del notebook](https://drive.google.com/file/d/1Hr9s7PVURlrUIkB-xNnEPjVswP1530fk/view?usp=drive_link)
+
+3. **hoteles_cp_ETL.ipynb**: Este notebook muestra cómo se limpiaron y actualizaron los datos de los hoteles de Yelp filtrados por la categoría 'hotel'. Se leyó un archivo parquet con los datos de los hoteles, se obtuvo la ciudad y el estado de los códigos postales, se actualizaron las columnas de ubicación y se guardaron los datos en un nuevo archivo parquet. [Link del notebook](https://drive.google.com/file/d/10huktHuQQQV4cMAU8ADpLwSdZOahemK4/view?usp=drive_link)
+
+4. **Proyecto Final (ETL_google_maps)**: Este notebook muestra cómo se extrajeron, filtraron y procesaron los datos de Google Maps relacionados con la hotelería, restaurantes y el turismo en Estados Unidos. Se conectó a la fuente de datos desde Google Drive, se extrajo la carpeta metadata-sitios, se filtró por categoría, se eliminaron los registros duplicados y anidados, se convirtió en un archivo JSONL, se accedió a la carpeta reviews-estados, se filtró por gmap_id, se combinó por estado, se agregó el campo de estado y se convirtió en otro archivo JSONL. [Link del notebook](https://colab.research.google.com/drive/1dTDL9-UYt3-o9nghAd-6O84zIGl35AuP?usp=drive_link)
+
+5. **ETL_BigQuery_google**: Este notebook muestra cómo se obtuvieron los datos de Google Maps y se cargaron a Google Cloud Storage y BigQuery. Se descargaron los archivos de datos desde un link de Google Drive, se cargaron a Google Cloud Storage, se creó el dataset 'google_maps' y las tablas correspondientes en BigQuery, se especificó el esquema de cada dato y se agregó la columna 'Etiqueta' en la tabla 'business'. También muestra algunos resultados y conclusiones de las consultas. [Link del notebook](https://colab.research.google.com/drive/1hCv9Xge8AnD9R2_bl6CJ9XuXRrFnQ7D2?usp=drive_link)
+
+6. **ETL_tabla_google_maps_business.ipynb**: Este notebook muestra cómo se crearon y actualizaron las columnas de ciudad, estado y código postal para la tabla business del dataset google_maps. Se agregaron las nuevas columnas a la tabla, se actualizaron con la información extraída de la columna 'address' usando expresiones regulares, se hicieron distintas consultas para diferentes casos y estructuras de datos y se filtraron los registros con valores NULL. [Link del notebook](https://drive.google.com/file/d/1VuDMkXnmzFg0h09isN-17GPd1nrW1P_L/view?usp=drive_link)
