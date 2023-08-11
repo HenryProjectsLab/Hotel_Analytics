@@ -36,7 +36,7 @@ Los indicadores de desempeño que se emplearon para analizar la información son
 
 1. **Promedio de Rating por Ciudad o Estado**:
 Calcula el promedio de los valores de 'rating' para analizar cómo califican los usuarios loS hoteles en diferentes ciudades o estados.
-2.	**Distribución de Ratings**: Analiza la distribución de los valores de 'rating' para entender la proporción de reseñas positivas, neutrales y negativas.
+2. **Distribución de Ratings**: Analiza la distribución de los valores de 'rating' para entender la proporción de reseñas positivas, neutrales y negativas.
 3.	**Promedio de Votos Útiles por Ciudad**: Calcula el promedio de los valores de 'c_util' (votos útiles) para entender qué ubicaciones tienden a recibir más votos útiles de los usuarios.
 4.	**Promedio de Votos Cool por Estado**: Calcula el promedio de los valores de 'c_cool' (votos cool) para analizar cuán "cool" consideran los usuarios los negocios en diferentes ubicaciones.
 5.	**Índice de Satisfacción del Cliente**: Evalua la satisfacción general de los usuarios en relación con los productos/servicios mediante el análisis de los sentimientos expresados en las reseñas proporcionadas.
