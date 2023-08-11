@@ -1,4 +1,4 @@
-#Diccionario de datos
+# Diccionario de datos
 
 Este conjunto de datos proporciona información valiosa sobre negocios registrados en Google Maps, incluyendo detalles como el nombre, dirección, descripción, calificaciones y más. Estos datos son de gran utilidad para realizar análisis y estudios relacionados con la industria de servicios y comercios en las distintas ciudades y estados de Estados Unidos.
 
