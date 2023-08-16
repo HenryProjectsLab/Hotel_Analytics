@@ -1,6 +1,6 @@
 # Scripts de Dataflow para Automatización del Datawarehouse
 
-Este repositorio contiene scripts de Google Dataflow en la carpeta `ScripstAutomatizacion` para automatizar el proceso el datawarehose de Google Cloud. Los scripts se encargan de extraer datos de negocios de hoteles, limpiar y transformar los datos, y cargarlos en Google BigQuery para su análisis.
+Este repositorio contiene scripts de Google Dataflow en la carpeta `ScripstAutomatizacion` para automatizar el datawarehose de Google Cloud. Los scripts se encargan de extraer datos de negocios de hoteles, limpiar y transformar los datos, y cargarlos en Google BigQuery para su análisis.
 
 ## Descripción general
 
