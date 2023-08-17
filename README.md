@@ -13,21 +13,22 @@
 </p>
 
 ***
-Nuestra empresa de Consultoría, Data Wise Solutions, se especializa en la organización, clasificación y procesamiento de los datos proporcionados por nuestros clientes, generando informes completos y detallados. En esta ocasión, nuestro compromiso es brindar un enfoque analítico integral para extraer información valiosa de los datos, con el objetivo de ofrecer a nuestros clientes una visión clara y precisa del estado actual de su negocio.
-
+Nuestra empresa de Consultoría, Data Wise, se especializa en la organización, clasificación y procesamiento de los datos proporcionados por nuestros clientes, generando informes completos y detallados. En esta ocasión, nuestro compromiso es brindar un enfoque analítico integral para extraer información valiosa de los datos, con el objetivo de ofrecer a nuestros clientes una visión clara y precisa del estado actual de su negocio.
+#
 ### **Objetivos**
 ***
 - Objetivo General del trabajo:
-    - Realizar una análisis del mercado estadounidense de Hoteles
-       
+    - Desarrollar un Sistema de Análisis de Reseñas mediante la implementación de técnicas de Procesamiento de Lenguaje Natural (NLP), que a su vez se integre con un flujo de datos orquestado para permitir la carga incremental de información, donde dicho sistema sea capaz de analizar aspectos más profundos de las reseñas.
+       ##
 - Objetivo General del equipo:
     - Diseñar y poner en producción, en la nube, un pipeline que alimente a un dashboard de analítica y al modelo de Machine Learning.
-
+        ##
 - Objetivos Específicos del trabajo:
-    - Realizar análisis de sentimientos (opiniones) de las reseñas de usuarios de Yelp y Google maps.
-    - Predecir el crecimiento del mercado hotelero.
-    - Recomendar tres estados de U.S. para abrir hoteles.
-    - Elaborar un sistema de recomendación de restaurantes para los usuarios de los hoteles.
+    - Realizar análisis de sentimientos (opiniones) de las reseñas, asi mismo tambien hacer un modelo de clasificación para identificar los aspectos más reelevantes de los usuarios en las reseñas de Yelp y Google maps.
+    - Recomendar acciones al cliente para la toma de decisiones en base a los hallazgos.
+    - Automatizar la orquestación de flujo de datos para las cargas incrementales.
+    - Implementar el modelo de NLP en la nube
+    - Construir un Tablero interactivo donde se analice KPI's reelevante s para el cliente 
   
 ***
 ### ⌛KPI's
@@ -80,7 +81,7 @@ Una lista de tecnologías utilizadas en el proyecto:
 En este proyecto contribuyeron las siguientes personas: 
 
 * [Andrea Huertas](https://www.linkedin.com/in/luz-andrea-huertas-guerrero-30bb7a237/)
-* [Franco Cappa](https://www.linkedin.com/in/abelfrancoccapa/)
+* [Franco Ccapa](https://www.linkedin.com/in/abelfrancoccapa/)
 * [Joaquin Olea](https://www.linkedin.com/in/joaqu%C3%ADn-olea-ibarra-895aa413a/)
 * [Jeison Suárez](https://www.linkedin.com/in/jeison-su%C3%A1rez-bbb753266/) 
 * [Tomas Alvarenga](https://www.linkedin.com/in/tomas-agostino-alvarenga-4a7a80265/)
