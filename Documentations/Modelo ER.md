@@ -12,9 +12,9 @@ El diagrama del modelo ER se muestra a continuación:
 
 El diagrama utiliza la notación de Chen, que consiste en representar las entidades con rectángulos, las relaciones con rombos y los atributos con óvalos. Las líneas que conectan las entidades y las relaciones indican las cardinalidades, que pueden ser uno a uno (1:1), uno a muchos (1:N), muchos a uno (N:1) o muchos a muchos (N:M).
 
-## Descripción de las entidades y las relaciones
+## Descripción de las tablas
 
-Para obtener más información donde se detallan las entidades y las relaciones que componen el modelo ER, así como sus atributos y restricciones visita el [Diccionario de datos](https://github.com/HenryProjectsLab/Hotel_Analytics/blob/a8049c47dcd2a55e6293f1b8f80839423f640079/Documentations/Diccionario%20de%20datos.md)
+Para obtener más información donde se detallan las tablas que componen el modelo ER, así como sus atributos y restricciones visita el [Diccionario de datos](https://github.com/HenryProjectsLab/Hotel_Analytics/blob/a8049c47dcd2a55e6293f1b8f80839423f640079/Documentations/Diccionario%20de%20datos.md)
 
 ## Relaciones
 
