@@ -24,6 +24,8 @@ En esta ocasión, llevamos a cabo un análisis exhaustivo de los comentarios y r
 </p>
 
 
+El panel de control muestra una parte del modelo de machine learning. Mediante el análisis de sentimientos llevado a cabo, calculamos un índice de satisfacción del cliente utilizando una fórmula DAX. Esto nos brinda la capacidad de evaluar el nivel de satisfacción de los usuarios de los hoteles en relación con los servicios ofrecidos, considerando los comentarios proporcionados por los mismos.
+
 <p align="center">
   <img src="Image/dash2.jpg" />
 </p>
