@@ -55,21 +55,21 @@ Calcula el promedio de los valores de 'rating' para analizar cómo califican los
 ***
 ### **👀Alcances y Limitaciones**
 ***
-El presente estudio se limitará al análisis del sector hotelero y tan sólo de manera complementaría desarrollará un sistema de recomendaciones de restaurantes para huespedes de los hoteles.
+* Roles de usuario para garantizar la información
+* [Tablero interactivo en Power Bi](https://app.powerbi.com/view?r=eyJrIjoiYzkyMTUyMDYtMGNiNi00ZWQyLTg5MGYtNTMwY2NkNjkwYmQ2IiwidCI6IjUwNjIwMTJiLTI4NGEtNDJkNS1hOTk0LTk2ZTBiZmNlOTczNiIsImMiOjR9)
+* Sistema de interpretación de reseñas de Google y Yelp
+  * Automatización de la Carga incremental mediante los servicios de Google Cloud Platform
+* 6 Kpi´s  en el tablero de PowerBi
+* Enlace público del Tablero interactivo en PowerBI
 
-El estudio del sector se hará principalmente a través de un análisis de sentimientos que se realizará sobre las reseñas de usuarios de Yelp y Google Maps utilizando NLP (Natural Lenguage Processing).
-
-El pronóstico que haremos será para la industria hotelera. Analizaremos tendencias históricas para este sector y buscaremos relacionarlo con la tasa fed y el desempleo para reforzar nuestro "forecast".
-
-Para realizar recomendaciones sobre donde emplazar los nuevos locales nos limitaremos a suponer que el flujo aéreo tiene una relación con el turismo y por consiguiente con el hospedaje en hoteles. Los destinos con mayor cantidad de vuelos y con mayor tasa de ocupación en hoteles serán nuestras recomendaciones.
-
-El sistema de recomendación se construirá con filtro colaborativo basado en los ratings de usuarios con gustos similares en restaurantes, pensándose como un "plus" o servicio extra para los huespedes de los hoteles.
-
-El datawarehouse de dónde se nutrirá nuestro dashboard y modelo de Machine Learning se construirá con BigQuery en Google Cloud Platform.
-
-El estudio no explorará otros países, ni otros rubros comerciales.
-
-
+***
+### **Entregables**
+***
+* **Código fuente del modelo de Machine Learning** usado para el Sistema de interpretación de Reseñas
+* **Códigos fuente** usados para la Automatización de carga Incremental en GCP:
+* **Sistema de la orquestación** de la flujo de datos en la nube
+* **Documentación detallada de los procesos**: EDA, ETL, Diagrama Entidad- Relación, Diagrama de Arquitectura
+* **Usuario administrador** con Tablero interactivo en PowerBI 
 
 ## **📈Stack Tecnológico**
 ***
