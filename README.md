@@ -35,14 +35,13 @@ Nuestra empresa de Consultoría, Data Wise, se especializa en la organización, 
 ***
 Los indicadores de desempeño que se emplearon para analizar la información son los siguientes:
 
-1. **Promedio de Rating por Ciudad o Estado**:
-Calcula el promedio de los valores de 'rating' para analizar cómo califican los usuarios loS hoteles en diferentes ciudades o estados.
-2. **Distribución de Ratings**: Analiza la distribución de los valores de 'rating' para entender la proporción de reseñas positivas, neutrales y negativas.
-3.	**Promedio de Votos Útiles por Ciudad**: Calcula el promedio de los valores de 'c_util' (votos útiles) para entender qué ubicaciones tienden a recibir más votos útiles de los usuarios.
-4.	**Promedio de Votos Cool por Estado**: Calcula el promedio de los valores de 'c_cool' (votos cool) para analizar cuán "cool" consideran los usuarios los negocios en diferentes ubicaciones.
-5.	**Índice de Satisfacción del Cliente**: Evalúa la satisfacción general de los usuarios en relación con los productos/servicios mediante el análisis de los sentimientos expresados en las reseñas proporcionadas.
-6.	**Relación entre Rating y Votos Útiles**: Analiza si existe una correlación entre los valores de 'rating' y la cantidad de votos útiles ('c_util') que reciben las reseñas.
-7.	**% Crecimiento de la ocupación 2019 vs. 2023**: Indica la proporción en la que ha crecido la ocupación hotelera, en el periodo de tiempo indicado. 
+1. **Índice de Satisfacción del Cliente**: Evalúa la satisfacción general de los usuarios en relación con los productos/servicios mediante el análisis de los sentimientos expresados en las reseñas proporcionadas.
+2. **Promedio de Rating por Ciudad o Estado**:
+Calcula el promedio de los valores de 'rating' para analizar cómo califican los usuarios los hoteles en diferentes ciudades o estados.
+3. **Distribución de Ratings**: Analiza la distribución de los valores de 'rating' para entender la proporción de reseñas positivas, neutrales y negativas.
+4.	**Promedio de Rating por Hotel**: Calcula el promedio de los valores de 'rating para analizar cómo califican los usuarios una cadena hotelera o un hotel en particular.
+5.	**Promedio de Sentimiento por Hotel**: Calcula el promedio del sentimiento en las categorías positiva (1), negativa (0) y neutra (-1), teniendo en cuenta la percepción de los usuarios.
+6.	**% Crecimiento de la ocupación 2019 vs. 2023**: Indica la proporción en la que ha crecido la ocupación hotelera, en el periodo de tiempo indicado. 
 
 
 ***
