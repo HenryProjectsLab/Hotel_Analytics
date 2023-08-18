@@ -15,7 +15,7 @@
 ***
 Nuestra empresa de Consultoría, Data Wise Solutions DWS, se especializa en la organización, clasificación y procesamiento de los datos proporcionados por nuestros clientes, generando informes completos y detallados. En esta ocasión, nuestro compromiso es brindar un enfoque analítico integral para extraer información valiosa de los datos, con el objetivo de ofrecer a nuestros clientes una visión clara y precisa del estado actual de su negocio.
 
-### **Contexto**:
+### **Contexto**
 ***
 En esta ocasión, llevamos a cabo un análisis exhaustivo de los comentarios y reseñas proporcionados por los usuarios de diversos hoteles. El objetivo principal es identificar las áreas en las que los clientes han expresado su insatisfacción o preocupación en relación con los servicios ofrecidos. Para lograrlo, empleamos técnicas de análisis de sentimientos mediante el uso de la biblioteca VADER (Valence Aware Dictionary and sEntiment Reasoner) y la librería FastText. La meta es generar tópicos o temáticas clave a partir de esta información, con el propósito de ofrecer recomendaciones valiosas a nuestro cliente.
 
