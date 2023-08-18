@@ -14,21 +14,19 @@
 
 ***
 Nuestra empresa de Consultoría, Data Wise, se especializa en la organización, clasificación y procesamiento de los datos proporcionados por nuestros clientes, generando informes completos y detallados. En esta ocasión, nuestro compromiso es brindar un enfoque analítico integral para extraer información valiosa de los datos, con el objetivo de ofrecer a nuestros clientes una visión clara y precisa del estado actual de su negocio.
-#
-### **Objetivos**
+
+### **Objetivo General**
 ***
-- Objetivo General del trabajo:
-    - Desarrollar un Sistema de Análisis de Reseñas mediante la implementación de técnicas de Procesamiento de Lenguaje Natural (NLP), que a su vez se integre con un flujo de datos orquestado para permitir la carga incremental de información, donde dicho sistema sea capaz de analizar aspectos más profundos de las reseñas.
-       ##
-- Objetivo General del equipo:
-    - Diseñar y poner en producción, en la nube, un pipeline que alimente a un dashboard de analítica y al modelo de Machine Learning.
-        ##
-- Objetivos Específicos del trabajo:
-    - Realizar análisis de sentimientos (opiniones) de las reseñas, asi mismo tambien hacer un modelo de clasificación para identificar los aspectos más reelevantes de los usuarios en las reseñas de Yelp y Google maps.
-    - Recomendar acciones al cliente para la toma de decisiones en base a los hallazgos.
-    - Automatizar la orquestación de flujo de datos para las cargas incrementales.
-    - Implementar el modelo de NLP en la nube
-    - Construir un Tablero interactivo donde se analice KPI's reelevante s para el cliente 
+* Para este proyecto se plantea conocer los principales aspectos de la industria hotelera en Estados Unidos, además de analizar las reseñas de los usuarios usando un modelo de ML.
+  
+### **Objetivo Específicos**
+***
+* Por medio del  diagrama de arquitectura explicar el flujo del dato.
+* Entender cómo se cargan los datos a Google Cloud desde su origen.
+* Hacer una demostración de carga incremental en el Datawarehouse.
+* Presentar un  dashboard en PowerBI con KPI’s del caso de estudio.
+* Dar a conocer algunos hallazgos relevantes adicionales.
+
   
 ***
 ### ⌛KPI's
