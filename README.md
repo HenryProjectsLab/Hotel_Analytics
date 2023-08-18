@@ -53,12 +53,12 @@ Calcula el promedio de los valores de 'rating' para analizar cómo califican los
 
 
 ***
-### **👀Alcances y Limitaciones**
+### **👀Alcances del Proyecto**
 ***
 * Roles de usuario para garantizar la información
 * [Tablero interactivo en Power Bi](https://app.powerbi.com/view?r=eyJrIjoiYzkyMTUyMDYtMGNiNi00ZWQyLTg5MGYtNTMwY2NkNjkwYmQ2IiwidCI6IjUwNjIwMTJiLTI4NGEtNDJkNS1hOTk0LTk2ZTBiZmNlOTczNiIsImMiOjR9)
 * Sistema de interpretación de reseñas de Google y Yelp
-  * Automatización de la Carga incremental mediante los servicios de Google Cloud Platform
+* Automatización de la Carga incremental mediante los servicios de Google Cloud Platform
 * 6 Kpi´s  en el tablero de PowerBi
 * Enlace público del Tablero interactivo en PowerBI
 
