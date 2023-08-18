@@ -15,6 +15,10 @@
 ***
 Nuestra empresa de Consultoría, Data Wise, se especializa en la organización, clasificación y procesamiento de los datos proporcionados por nuestros clientes, generando informes completos y detallados. En esta ocasión, nuestro compromiso es brindar un enfoque analítico integral para extraer información valiosa de los datos, con el objetivo de ofrecer a nuestros clientes una visión clara y precisa del estado actual de su negocio.
 
+<p align="center">
+  <img src="Image/dash1.jpg" />
+</p>
+
 ### **Objetivo General**
 ***
 * Para este proyecto se plantea conocer los principales aspectos de la industria hotelera en Estados Unidos, además de analizar las reseñas de los usuarios usando un modelo de ML.
