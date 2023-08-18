@@ -34,7 +34,7 @@ Además, analizamos otras métricas cruciales, como la calificación por estado 
 
 
 <p align="center">
-  <img src="Image/dash2.jpg" />
+  <img src="Image/dash4.jpg" />
 </p>
 
 
