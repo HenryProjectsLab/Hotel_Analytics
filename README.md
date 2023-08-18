@@ -38,6 +38,10 @@ Además, analizamos otras métricas cruciales, como la calificación por estado 
 </p>
 
 
+
+Por otro lado, también es viable examinar tanto la calificación por hotel como el sentimiento asociado, ya sea positivo, negativo o neutro. Esto proporciona una perspectiva valiosa sobre cómo los usuarios están evaluando su cadena hotelera, y si es necesario implementar mejoras con el fin de elevar el rating o índice de satisfacción general.
+
+
 ### **Objetivo General**
 ***
 * Para este proyecto se plantea conocer los principales aspectos de la industria hotelera en Estados Unidos, además de analizar las reseñas de los usuarios usando un modelo de ML.
