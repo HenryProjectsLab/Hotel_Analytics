@@ -13,56 +13,80 @@
 </p>
 
 ***
-Nuestra empresa de Consultoría, Data Wise, se especializa en la organización, clasificación y procesamiento de los datos proporcionados por nuestros clientes, generando informes completos y detallados. En esta ocasión, nuestro compromiso es brindar un enfoque analítico integral para extraer información valiosa de los datos, con el objetivo de ofrecer a nuestros clientes una visión clara y precisa del estado actual de su negocio.
-#
-### **Objetivos**
+Nuestra empresa de Consultoría, Data Wise Solutions DWS, se especializa en la organización, clasificación y procesamiento de los datos proporcionados por nuestros clientes, generando informes completos y detallados. En esta ocasión, nuestro compromiso es brindar un enfoque analítico integral para extraer información valiosa de los datos, con el objetivo de ofrecer a nuestros clientes una visión clara y precisa del estado actual de su negocio.
+
+### **Contexto**
 ***
-- Objetivo General del trabajo:
-    - Desarrollar un Sistema de Análisis de Reseñas mediante la implementación de técnicas de Procesamiento de Lenguaje Natural (NLP), que a su vez se integre con un flujo de datos orquestado para permitir la carga incremental de información, donde dicho sistema sea capaz de analizar aspectos más profundos de las reseñas.
-       ##
-- Objetivo General del equipo:
-    - Diseñar y poner en producción, en la nube, un pipeline que alimente a un dashboard de analítica y al modelo de Machine Learning.
-        ##
-- Objetivos Específicos del trabajo:
-    - Realizar análisis de sentimientos (opiniones) de las reseñas, asi mismo tambien hacer un modelo de clasificación para identificar los aspectos más reelevantes de los usuarios en las reseñas de Yelp y Google maps.
-    - Recomendar acciones al cliente para la toma de decisiones en base a los hallazgos.
-    - Automatizar la orquestación de flujo de datos para las cargas incrementales.
-    - Implementar el modelo de NLP en la nube
-    - Construir un Tablero interactivo donde se analice KPI's reelevante s para el cliente 
+En esta ocasión, llevamos a cabo un análisis exhaustivo de los comentarios y reseñas proporcionados por los usuarios de diversos hoteles. El objetivo principal es identificar las áreas en las que los clientes han expresado su insatisfacción o preocupación en relación con los servicios ofrecidos. Para lograrlo, empleamos técnicas de análisis de sentimientos mediante el uso de la biblioteca VADER (Valence Aware Dictionary and sEntiment Reasoner) y la librería FastText. La meta es generar tópicos o temáticas clave a partir de esta información, con el propósito de ofrecer recomendaciones valiosas a nuestro cliente.
+
+<p align="center">
+  <img src="Image/dash3.jpg" />
+</p>
+
+
+El panel de control muestra una parte del modelo de machine learning. Mediante el análisis de sentimientos llevado a cabo, calculamos un índice de satisfacción del cliente utilizando una fórmula DAX. Esto nos brinda la capacidad de evaluar el nivel de satisfacción de los usuarios de los hoteles en relación con los servicios ofrecidos, considerando los comentarios proporcionados por los mismos.
+
+
+Además, analizamos otras métricas cruciales, como la calificación por estado o ciudad, que nos proporciona una visión de las evaluaciones dadas por los usuarios. Asimismo, examinamos la distribución del rating, permitiéndonos comprender el nivel de satisfacción de los usuarios en una escala que va del 1 al 5.
+
+
+
+
+
+<p align="center">
+  <img src="Image/dash4.jpg" />
+</p>
+
+
+
+Por otro lado, también es viable examinar tanto la calificación por hotel como el sentimiento asociado, ya sea positivo, negativo o neutro. Esto proporciona una perspectiva valiosa sobre cómo los usuarios están evaluando su cadena hotelera, y si es necesario implementar mejoras con el fin de elevar el rating o índice de satisfacción general.
+
+
+### **Objetivo General**
+***
+* Para este proyecto se plantea conocer los principales aspectos de la industria hotelera en Estados Unidos, además de analizar las reseñas de los usuarios usando un modelo de ML.
+  
+### **Objetivo Específicos**
+***
+* Por medio del  diagrama de arquitectura explicar el flujo del dato.
+* Entender cómo se cargan los datos a Google Cloud desde su origen.
+* Hacer una demostración de carga incremental en el Datawarehouse.
+* Presentar un  dashboard en PowerBI con KPI’s del caso de estudio.
+* Dar a conocer algunos hallazgos relevantes adicionales.
+
   
 ***
 ### ⌛KPI's
 ***
 Los indicadores de desempeño que se emplearon para analizar la información son los siguientes:
 
-1. **Promedio de Rating por Ciudad o Estado**:
-Calcula el promedio de los valores de 'rating' para analizar cómo califican los usuarios loS hoteles en diferentes ciudades o estados.
-2. **Distribución de Ratings**: Analiza la distribución de los valores de 'rating' para entender la proporción de reseñas positivas, neutrales y negativas.
-3.	**Promedio de Votos Útiles por Ciudad**: Calcula el promedio de los valores de 'c_util' (votos útiles) para entender qué ubicaciones tienden a recibir más votos útiles de los usuarios.
-4.	**Promedio de Votos Cool por Estado**: Calcula el promedio de los valores de 'c_cool' (votos cool) para analizar cuán "cool" consideran los usuarios los negocios en diferentes ubicaciones.
-5.	**Índice de Satisfacción del Cliente**: Evalúa la satisfacción general de los usuarios en relación con los productos/servicios mediante el análisis de los sentimientos expresados en las reseñas proporcionadas.
-6.	**Relación entre Rating y Votos Útiles**: Analiza si existe una correlación entre los valores de 'rating' y la cantidad de votos útiles ('c_util') que reciben las reseñas.
-7.	**% Crecimiento de la ocupación 2019 vs. 2023**: Indica la proporción en la que ha crecido la ocupación hotelera, en el periodo de tiempo indicado. 
+1. **Índice de Satisfacción del Cliente**: Evalúa la satisfacción general de los usuarios en relación con los productos/servicios mediante el análisis de los sentimientos expresados en las reseñas proporcionadas.
+2. **Promedio de Rating por Ciudad o Estado**:
+Calcula el promedio de los valores de 'rating' para analizar cómo califican los usuarios los hoteles en diferentes ciudades o estados.
+3. **Distribución de Ratings**: Analiza la distribución de los valores de 'rating' para entender la proporción de reseñas positivas, neutrales y negativas.
+4.	**Promedio de Rating por Hotel**: Calcula el promedio de los valores de 'rating para analizar cómo califican los usuarios una cadena hotelera o un hotel en particular.
+5.	**Promedio de Sentimiento por Hotel**: Calcula el promedio del sentimiento en las categorías positiva (1), negativa (0) y neutra (-1), teniendo en cuenta la percepción de los usuarios.
+6.	**% Crecimiento de la ocupación 2019 vs. 2023**: Indica la proporción en la que ha crecido la ocupación hotelera, en el periodo de tiempo indicado. 
 
 
 ***
-### **👀Alcances y Limitaciones**
+### **👀Alcances del Proyecto**
 ***
-El presente estudio se limitará al análisis del sector hotelero y tan sólo de manera complementaría desarrollará un sistema de recomendaciones de restaurantes para huespedes de los hoteles.
+* Roles de usuario para garantizar la información
+* [Tablero interactivo en Power Bi](https://app.powerbi.com/view?r=eyJrIjoiYzkyMTUyMDYtMGNiNi00ZWQyLTg5MGYtNTMwY2NkNjkwYmQ2IiwidCI6IjUwNjIwMTJiLTI4NGEtNDJkNS1hOTk0LTk2ZTBiZmNlOTczNiIsImMiOjR9)
+* Sistema de interpretación de reseñas de Google y Yelp
+* Automatización de la Carga incremental mediante los servicios de Google Cloud Platform
+* 6 Kpi´s  en el tablero de PowerBi
+* Enlace público del Tablero interactivo en PowerBI
 
-El estudio del sector se hará principalmente a través de un análisis de sentimientos que se realizará sobre las reseñas de usuarios de Yelp y Google Maps utilizando NLP (Natural Lenguage Processing).
-
-El pronóstico que haremos será para la industria hotelera. Analizaremos tendencias históricas para este sector y buscaremos relacionarlo con la tasa fed y el desempleo para reforzar nuestro "forecast".
-
-Para realizar recomendaciones sobre donde emplazar los nuevos locales nos limitaremos a suponer que el flujo aéreo tiene una relación con el turismo y por consiguiente con el hospedaje en hoteles. Los destinos con mayor cantidad de vuelos y con mayor tasa de ocupación en hoteles serán nuestras recomendaciones.
-
-El sistema de recomendación se construirá con filtro colaborativo basado en los ratings de usuarios con gustos similares en restaurantes, pensándose como un "plus" o servicio extra para los huespedes de los hoteles.
-
-El datawarehouse de dónde se nutrirá nuestro dashboard y modelo de Machine Learning se construirá con BigQuery en Google Cloud Platform.
-
-El estudio no explorará otros países, ni otros rubros comerciales.
-
-
+***
+### **Entregables**
+***
+* **Código fuente del modelo de Machine Learning** usado para el Sistema de interpretación de Reseñas
+* **Códigos fuente** usados para la Automatización de carga Incremental en GCP:
+* **Sistema de la orquestación** de la flujo de datos en la nube
+* **Documentación detallada de los procesos**: EDA, ETL, Diagrama Entidad- Relación, Diagrama de Arquitectura
+* **Usuario administrador** con Tablero interactivo en PowerBI 
 
 ## **📈Stack Tecnológico**
 ***
