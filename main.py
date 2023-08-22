@@ -67,6 +67,6 @@ if selected == "Dashboard":
     exec(script2_code)
 
 if selected == "Sentiment":
-    with open('Páginas\Sentiment.py', 'r', encoding='utf-8') as f:
+    with open('Páginas/Sentiment.py', 'r', encoding='utf-8') as f:
         script2_code = f.read()
     exec(script2_code)
