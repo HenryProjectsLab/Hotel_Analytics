@@ -89,6 +89,9 @@ Calcula el promedio de los valores de 'rating' para analizar cómo califican los
 * **Documentación detallada de los procesos**: EDA, ETL, Diagrama Entidad- Relación, Diagrama de Arquitectura
 * **Usuario administrador** con Tablero interactivo en PowerBI 
 
+## **📎Links**
+* <A HREF="https://youtu.be/krAKkNkRXx4?si=IA1cEGiFyTyw1xHw"> Video del proyecto en Youtube </A>.
+
 ## **📈Stack Tecnológico**
 ***
 Una lista de tecnologías utilizadas en el proyecto:
