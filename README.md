@@ -99,6 +99,7 @@ Una lista de tecnologías utilizadas en el proyecto:
 * 📊 [Power Bi](https://powerbi.microsoft.com/es-es/)
 * 🐱‍💻 [Git](https://github.com/)
 * 📜[Jira](https://id.atlassian.com/logout?continue=https%3A%2F%2Fplanealab.atlassian.net)
+* ⛵[Streamlit](https://streamlit.io/)
 
 
 ## **Colaboradores 👪**
