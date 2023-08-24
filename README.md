@@ -78,6 +78,7 @@ Calcula el promedio de los valores de 'rating' para analizar cómo califican los
 * Automatización de la Carga incremental mediante los servicios de Google Cloud Platform
 * 6 Kpi´s  en el tablero de PowerBi
 * Enlace público del Tablero interactivo en PowerBI
+*[ Deploy del Modelo de Machine Learning en StreamLit](https://mainpy-fhabmqqqdtxwxnt7a63rfb.streamlit.app/)
 
 ***
 ### **Entregables**
